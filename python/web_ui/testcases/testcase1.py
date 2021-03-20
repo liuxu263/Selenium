@@ -1,9 +1,9 @@
 # -*- coding: UTF-8 -*-
-from Python.Web_UI.driver import Driver
-from Python.Web_UI.common.common import click
-from Python.Web_UI.common.common import find
-from Python.Web_UI.common.common import get_url
-from Python.Web_UI.testdatas.baidu_home_page_data import baidu_home_page_data
+from python.web_ui.driver import Driver
+from python.web_ui.common.common import click
+from python.web_ui.common.common import find
+from python.web_ui.common.common import get_url
+from python.web_ui.testdatas.baidu_home_page_data import baidu_home_page_data
 import unittest
 
 

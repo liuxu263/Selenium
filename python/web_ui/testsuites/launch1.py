@@ -1,9 +1,9 @@
 # -*- coding: UTF-8 -*-
 
-from Python.Web_UI.testsuites.testsuite2 import TestSuite2
+from python.web_ui.testsuites.testsuite1 import TestSuite1
 import unittest
 
 if __name__ == '__main__':
-    suite = TestSuite2().suite
+    suite = TestSuite1().suite
     runner = unittest.TextTestRunner(verbosity=2)
     runner.run(suite)

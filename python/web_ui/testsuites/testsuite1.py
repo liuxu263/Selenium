@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
-from Python.Web_UI.testcases.testcase1 import Test1
-from Python.Web_UI.testcases.testcase2 import Test2
+from python.web_ui.testcases.testcase1 import Test1
+from python.web_ui.testcases.testcase2 import Test2
 import unittest
 
 

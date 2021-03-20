@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
-from Python.Web_UI.testdatas.common_data import common_data
-from Python.Web_UI.ui import ui
+from python.web_ui.testdatas.common_data import common_data
+from python.web_ui.ui import ui
 from selenium.common.exceptions import NoSuchElementException
 from time import sleep
 
