@@ -1,9 +1,11 @@
 # -*- coding: UTF-8 -*-
-from python.web_ui.driver import Driver
-from python.web_ui.common.common import click
-from python.web_ui.common.common import find
-from python.web_ui.common.common import get_url
+
 import unittest
+from python.web_ui.driver import Driver
+from python.web_ui.utils.common import click
+from python.web_ui.utils.common import find
+from python.web_ui.utils.common import get_url
+
 
 
 class Test2(unittest.TestCase):

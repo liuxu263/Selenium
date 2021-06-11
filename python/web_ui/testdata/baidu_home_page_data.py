@@ -1,3 +1,3 @@
 # -*- coding: UTF-8 -*-
 
-print("hello world")
+test = 111
