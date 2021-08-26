@@ -3,15 +3,11 @@
 
 
 def get_url():
-    url = ""
+    url = "http://www.baidu.com"
     return url
 
 
 def send_alert(message):
-    print("发送报警")
-    print(message)
+    # print("发送报警")
+    # print(message)
     pass
-
-
-
-

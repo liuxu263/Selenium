@@ -1,4 +1,4 @@
 #! /user/bin/env python
 # -*- coding:utf-8 -*-
 
-time = ""
+time = "123123"

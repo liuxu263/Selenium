@@ -1,7 +1,7 @@
 #! /user/bin/env python
 # -*- coding:utf-8 -*-
 
-from python.web_ui.src.pages_locators import baidu_home_page
+from python.web_ui.src.pages_locators.baidu_home_page import baidu_home_page
 from python.web_ui.src.pages_locators.baidu_search_results_page import baidu_search_results_page
 from python.web_ui.src.pages_locators.baidu_login_in_page import baidu_login_in_page
 

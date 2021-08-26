@@ -11,8 +11,8 @@ from python.web_ui.src.testdata import common_data
 
 
 def shot_screen(self, method_name, pic_name):
-    base_path = os.path.abspath(os.path.dirname(os.getcwd()) + os.path.sep + '.')
-    path = base_path + "/web_ui/output/" + common_data.time + "/" + self.class_name + "/" + method_name
+    base_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    path = base_path + "/output/" + common_data.time + "/" + self.class_name + "/" + method_name
     if not os.path.exists(path):
         os.makedirs(path)
     file_name = path + "/" + pic_name + ".png"
