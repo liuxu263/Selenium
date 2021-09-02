@@ -2,6 +2,7 @@
 # -*- coding:utf-8 -*-
 
 import unittest
+
 from python.web_ui.src.testcases.testcase1 import Test1
 from python.web_ui.src.testcases.testcase2 import Test2
 

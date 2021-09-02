@@ -23,8 +23,8 @@ def launch():
     start_time = datetime.now()
     print("开始时间:" + time.strftime("%Y_%m_%d_%H:%M:%S", time.localtime()))
 
-    process1 = multiprocessing.Process(target=run_testsuite, args=(test_suite1(),))
-    process2 = multiprocessing.Process(target=run_testsuite, args=(test_suite2(),))
+    process1 = multiprocessing.Process(target=run_test_suite, args=(test_suite1(),))
+    process2 = multiprocessing.Process(target=run_test_suite, args=(test_suite2(),))
     process1.start()
     process2.start()
     process1.join()
@@ -35,9 +35,9 @@ def launch():
     print("用时:" + str((end_time - start_time).seconds) + "s")
 
 
-def run_testsuite(testsuite):
+def run_test_suite(test_suite):
     runner = unittest.TextTestRunner(verbosity=2)
-    runner.run(testsuite)
+    runner.run(test_suite)
 
 
 if __name__ == '__main__':

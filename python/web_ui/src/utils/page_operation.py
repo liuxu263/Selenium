@@ -4,6 +4,7 @@
 
 import os
 import time
+
 from selenium.common.exceptions import NoSuchElementException
 
 from python.web_ui.src.ui import ui

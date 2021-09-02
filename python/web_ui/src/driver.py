@@ -1,9 +1,10 @@
 #! /user/bin/env python
 # -*- coding:utf-8 -*-
 
-from selenium import webdriver
 import time
 import os
+
+from selenium import webdriver
 
 
 class Driver(object):
@@ -24,7 +25,3 @@ class Driver(object):
         self.driver.fullscreen_window()
         time.sleep(2)
         return self.driver
-
-
-if __name__ == '__main__':
-    print(Driver().init_driver())

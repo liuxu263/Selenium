@@ -9,5 +9,5 @@ def get_url():
 
 def send_alert(message):
     # print("发送报警")
-    # print(message)
+    print(message)
     pass

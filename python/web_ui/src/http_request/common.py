@@ -9,4 +9,5 @@ def test():
     headers = {"xx": "xx"}
     r = requests.get(url, headers=headers)
     r = r.json()
+    print(r)
     pass

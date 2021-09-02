@@ -5,7 +5,7 @@ from setuptools import setup
 from setuptools import find_packages
 
 setup(
-    name='python',
+    name='python selenium',
     version='1.0',
     packages=find_packages(),
     description='python selenium',

@@ -6,12 +6,13 @@ import unittest
 from python.web_ui.src.driver import Driver
 from python.web_ui.src.utils.page_operation import click
 from python.web_ui.src.utils.page_operation import find
-from python.web_ui.src.utils.common import get_url
 from python.web_ui.src.utils.page_operation import shot_screen
+from python.web_ui.src.utils.common import get_url
 from python.web_ui.src.testdata import baidu_home_page_data
 
 
 class Test1(unittest.TestCase):
+    driver = None
 
     @classmethod
     def setUpClass(cls) -> None:
