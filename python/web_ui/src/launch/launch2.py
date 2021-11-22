@@ -8,7 +8,7 @@ from datetime import datetime
 
 from python.web_ui.src.testsuites.testsuite1 import test_suite1
 from python.web_ui.src.testsuites.testsuite2 import test_suite2
-from python.web_ui.src.testdata import common_data
+from python.web_ui.src.testcases.testdata import data_common
 from python.web_ui.src.utils.common import send_alert
 
 
@@ -17,7 +17,7 @@ def launch():
     #     send_alert("输入参数错误")
     #     return
 
-    common_data.time = time.strftime("%Y_%m_%d_%H:%M:%S", time.localtime())
+    data_common.time = time.strftime("%Y_%m_%d_%H:%M:%S", time.localtime())
 
     send_alert("用例执行开始")
     start_time = datetime.now()
